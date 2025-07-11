@@ -220,3 +220,38 @@ p {
 .five img {
     border-radius: 48px;
 }
+
+/* six  */
+.six {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.six p {
+    font-size: 97px;
+    font-weight: bold;
+}
+
+input {
+    padding: 17px 37px;
+    border-style: none;
+    background-color: whitesmoke;
+    height: 30px;
+    width: 300px;
+    margin: 15px 0;
+}
+
+textarea {
+    padding: 17px 37px;
+    border-style: none;
+    background-color: whitesmoke;
+    height: 70px;
+    width: 300px;
+    margin: 15px 0;
+
+}
+
+.six button{
+    width: 100%;
+}
