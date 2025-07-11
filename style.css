@@ -183,6 +183,9 @@ p {
 .fd3-p3 img {
     border-radius: 50%;
     margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    padding-top: 15px;
 }
 
 .fd3-p3 p {
