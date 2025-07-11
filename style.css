@@ -138,3 +138,53 @@ p {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* 4th */
+.four h2 {
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+}
+
+.f-d {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.fd1,
+.fd2,
+.fd3 {
+    padding: 24px;
+    background-color: whitesmoke;
+    border-radius: 14px;
+    width: 366px;
+    height: 220px;
+    margin-top: 50px;
+}
+
+.star {
+    margin-bottom: 25px;
+}
+
+.fd1-p1,
+.fd2-p1,
+.fd3-p1 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.fd3-p3 {
+    display: flex;
+    justify-content: start;
+}
+
+.fd3-p3 img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.fd3-p3 p {
+    margin-left: 10px;
+    margin-top: 15px;
+}
