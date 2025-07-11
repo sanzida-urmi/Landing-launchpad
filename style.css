@@ -28,14 +28,15 @@
     font-weight: bold;
     height: 50px;
     border-style: none;
-    
+
 }
 
 .btn:hover {
-    background: linear-gradient(90deg, #3EC8FF, #4E47FF); 
-    transform: scale(1.05); 
+    background: linear-gradient(90deg, #3EC8FF, #4E47FF);
+    transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(78, 71, 255, 0.5);
 }
+
 .margin {
     margin: 116px 141px;
 }
@@ -56,7 +57,7 @@ nav {
     font-size: 34px;
     line-height: 150%;
     letter-spacing: 0%;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .banner {
@@ -252,6 +253,35 @@ textarea {
 
 }
 
-.six button{
+.six button {
     width: 100%;
+}
+
+/* footer */
+.f {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 428px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+li a {
+    color: rgba(137, 135, 161, 1);
+    text-decoration: none;
+}
+
+.f p {
+    color: rgba(137, 135, 161, 1);
+}
+.f h1{
+    font-size: 80px;
+    font-weight: 900;
 }
